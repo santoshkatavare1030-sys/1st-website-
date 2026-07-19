@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds of India Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1b5e20;
+            padding: 0.8rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #1b5e20;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+        .content {
+            margin-top: 1.5rem;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #2e7d32;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Birds of India Guide</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Rare Birds</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h1>Welcome to India's Premier Birding Guides</h1>
+        <p>Explore the rich avian diversity of the subcontinent with our expert local naturalists.</p>
+    </div>
+
+    <div class="container" id="gallery">
+        <h2>Rare Birds in India</h2>
+        <p>Discover some of the most elusive and beautiful winged wonders we track on our tours.</p>
+        <!-- Replace the placeholder link below with an actual image URL of a rare Indian bird -->
+        <img src="https://unsplash.com" alt="Rare Indian Bird">
+        <div class="content">
+            <p><strong>The Great Indian Bustard:</strong> One of the heaviest flying birds, primarily found in the dry grasslands of Rajasthan.</p>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h2>About Our Company</h2>
+        <p>Founded in 2026, Birds of India Guide provides world-class birdwatching tours. From the Western Ghats to the Himalayas, our certified guides ensure you get the perfect sightings while respecting local habitats.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to book your birding expedition? Reach out to us today!</p>
+        <p>Email: contact@birdsofindiaguide.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Birds of India Guide. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
